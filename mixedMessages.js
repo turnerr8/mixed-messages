@@ -2,7 +2,7 @@
 
 //returns a random number 
 function randomizer() {
-    return Math.floor(Math.random() * 4);
+    return Math.floor(Math.random() * 5);
 }
 
 //creates array with all 3 phrases which is passed into print function
@@ -25,6 +25,9 @@ function phraseArray() {
         case 3:
             phrases.push('Someone new will ');
             break;
+        case 4:
+            phrases.push('You should ');
+            break;
     }
 
     switch(choiceTwo) {
@@ -40,6 +43,9 @@ function phraseArray() {
         case 3:
             phrases.push('find a new friend ');
             break;
+        case 4:
+            phrases.push('be careful ');
+            break;
     }
 
     switch(choiceThree) {
@@ -54,6 +60,9 @@ function phraseArray() {
             break;
         case 3:
             phrases.push('no time soon.');
+            break;
+        case 4:
+            phrases.push('today.');
             break;
     }
 
