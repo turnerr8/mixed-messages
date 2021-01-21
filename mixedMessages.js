@@ -29,7 +29,7 @@ function phraseArray() {
 
     switch(choiceTwo) {
         case 0:
-            phrases.push('be rich ');
+            phrases.push('get rich ');
             break;
         case 1:
             phrases.push('have good fortune ');
@@ -61,4 +61,6 @@ function phraseArray() {
     return phrases;
 }
 
-console.log(phraseArray());
+const finalArray = phraseArray();
+
+console.log(finalArray[0] + finalArray[1] + finalArray[2]);
